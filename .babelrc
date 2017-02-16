@@ -1,0 +1,33 @@
+{
+  "presets": [
+    ["es2015", {
+      "es2015": {
+        "loose": true,
+        "modules": false
+      }
+    }],
+    "es2016",
+    "es2017",
+    "react",
+    "stage-0"
+  ],
+  "plugins": [
+    "add-module-exports",
+    ["meaningful-logs", {"loggers": [{"pattern": "console"}]}],
+    "react-autoprefix",
+    ["transform-replace-object-assign", "simple.assign"],
+    "transform-class-properties",
+    "transform-decorators-legacy",
+    "transform-object-rest-spread",
+    "transform-react-constant-elements",
+    "transform-react-display-name",
+    "transform-react-inline-elements",
+    "transform-react-pure-class-to-function",
+    "transform-react-remove-prop-types",
+    "transform-remove-console",
+    "transform-runtime"
+  ],
+  "only": [
+    "src/**/*"
+  ]
+}

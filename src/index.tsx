@@ -1,0 +1,59 @@
+import Active from "./Active";
+import ChevronDown from "./ChevronDown";
+import ChevronLeft from "./ChevronLeft";
+import ChevronRight from "./ChevronRight";
+import ChevronUp from "./ChevronUp";
+import Delete from "./Delete";
+import Edit from "./Edit";
+import Github from "./Github";
+import Hamburger from "./Hamburger";
+import Inactive from "./Inactive";
+import MoveDown from "./MoveDown";
+import MoveUp from "./MoveUp";
+import MoveLeft from "./MoveLeft";
+import MoveRight from "./MoveRight";
+import CaretDown from "./CaretDown";
+import CaretUp from "./CaretUp";
+import CaretLeft from "./CaretLeft";
+import CaretRight from "./CaretRight";
+import ViewArticles from "./ViewArticles";
+import ViewGrid from "./ViewGrid";
+import ViewHeadlines from "./ViewHeadlines";
+import ViewList from "./ViewList";
+import SearchMinus from "./SearchMinus";
+import SearchPlus from "./SearchPlus";
+import Search from "./Search";
+
+import {ObjectLiteral} from "../typings/common";
+
+
+const Icons: ObjectLiteral = {
+  Active,
+  Inactive,
+  ChevronUp,
+  ChevronDown,
+  ChevronLeft,
+  ChevronRight,
+  CaretUp,
+  CaretDown,
+  CaretLeft,
+  CaretRight,
+  ViewArticles,
+  ViewGrid,
+  ViewHeadlines,
+  ViewList,
+  Hamburger,
+  Edit,
+  Delete,
+  MoveUp,
+  MoveDown,
+  MoveLeft,
+  MoveRight,
+  Search,
+  SearchPlus,
+  SearchMinus,
+  Github,
+};
+
+
+export default Icons;
