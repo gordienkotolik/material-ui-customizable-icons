@@ -1,7 +1,7 @@
 material-ui-customizable-icons
 =======================
 
-# [Material-UI Customizable Icons](https://gasite.in.ua/packages/material-ui-customizable-icons/)
+# [Material-UI Customizable Icons](https://gasite.in.ua/open-source/material-ui-customizable-icons/)
 
 A set of minimalistic customizable material design SVG-icon components for React.
 

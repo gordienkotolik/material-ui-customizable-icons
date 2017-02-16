@@ -23,7 +23,7 @@
     "react",
     "typescript"
   ],
-  "homepage": "https://gasite.in.ua/open-source/material-ui-customizable-icons",
+  "homepage": "https://gasite.in.ua/open-source/material-ui-customizable-icons/",
   "dependencies": {
     "material-ui": "0.16.7",
     "react": "15.4.2",
