@@ -7,7 +7,7 @@ A set of minimalistic customizable material design SVG-icon components for React
 
 ## Requirements
 
-- [Node](https://nodejs.org) 7.4.0 or newer
+- [Node](https://nodejs.org) 7.5.0 or newer
 - [Typescript](https://www.typescriptlang.org) 2.1.5 or newer
 - [Babel](https://babeljs.io) 6.2.2 or newer
 

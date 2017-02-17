@@ -5,7 +5,7 @@ import {ObjectLiteral} from "../typings/common";
 interface Props {
   className?: string;
   style?: ObjectLiteral;
-  pallet?: ObjectLiteral;
+  pallet?: any;
   viewBox?: string;
   transform?: string;
 }
@@ -15,21 +15,10 @@ interface Context {
 }
 
 class SvgIcon extends React.Component<Props, any> {
-  public static defaultProps: {
+  public static defaultProps = {
     className: '',
     style: {},
-    pallet: {
-      strokeColor1: 'rgba(169, 169, 169, 1)',
-      strokeColor2: 'rgba(169, 169, 169, 1)',
-      strokeColor3: 'rgba(169, 169, 169, 1)',
-      strokeColor4: 'rgba(169, 169, 169, 1)',
-      strokeColor5: 'rgba(169, 169, 169, 1)',
-      fillColor1: 'transparent',
-      fillColor2: 'transparent',
-      fillColor3: 'transparent',
-      fillColor4: 'transparent',
-      fillColor5: 'transparent',
-    },
+    pallet: {},
     viewBox: '0 0 24 24',
     transform: '',
   };
