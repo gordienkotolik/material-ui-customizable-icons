@@ -4,6 +4,7 @@
     "target": "es6",
     "module": "es6",
     "moduleResolution": "node",
+    "newLine": "LF",
     "emitDecoratorMetadata": true,
     "experimentalDecorators": true,
     "allowSyntheticDefaultImports": true,

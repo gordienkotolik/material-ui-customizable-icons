@@ -1,8 +1,9 @@
 {
   "name": "material-ui-customizable-icons",
-  "version": "0.0.9",
+  "version": "0.0.11",
   "description": "A set of minimalistic customizable material design SVG-icon components for React.",
   "main": "index.js",
+  "types": "index.d.ts",
   "engines": {
     "node": ">=7.5.0",
     "npm": ">=4.1.1"
@@ -77,7 +78,7 @@
     "build:es6": "rimraf ./es6lib && tsc ./src/index.tsx --jsx react -target es6 -module commonjs --allowSyntheticDefaultImports true --outDir ./es6lib",
     "build:es5": "rimraf ./lib && babel only ./es6lib --out-dir ./lib",
     "clean:es6": "rimraf ./es6lib",
-    "copypackage": "cpy package.json ./lib && cpy README.md ./lib && cpy LICENSE ./lib",
+    "copypackage": "cpy package.json ./lib && cpy README.md ./lib && cpy LICENSE ./lib && cpy ./typings/index.d.ts ./lib",
     "build": "npm run build:es6 && npm run build:es5 && npm run clean:es6 && npm run copypackage",
     "dist": "npm run build && cd ./lib && npm publish"
   }
