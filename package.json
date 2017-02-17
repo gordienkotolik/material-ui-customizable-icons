@@ -1,6 +1,6 @@
 {
   "name": "material-ui-customizable-icons",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "A set of minimalistic customizable material design SVG-icon components for React.",
   "main": "lib/index.js",
   "files": [
