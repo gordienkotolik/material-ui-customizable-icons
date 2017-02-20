@@ -23,7 +23,7 @@ npm i material-ui-customizable-icons --save
 ```
 
 ## Usage
-Once installed, just import and use the components:
+Once installed, just import and use the component:
 ```javascript
 import React from `react`;
 import Active from 'material-ui-customizable-icons/Active';
