@@ -4,8 +4,8 @@ import SvgIcon from "./SvgIcon";
 
 
 interface Pallet {
-  ring: string;
   cat: string;
+  ring: string;
 }
 
 class Github extends SvgIcon {

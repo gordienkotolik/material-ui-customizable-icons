@@ -5,16 +5,16 @@ import {ObjectLiteral} from "../typings/common";
 interface Props {
   className?: string;
   style?: ObjectLiteral;
-  pallet?: any;
   viewBox?: string;
   transform?: string;
+  pallet?: any;
 }
 
 interface Context {
   muiTheme?: any;
 }
 
-class SvgIcon extends React.Component<Props, any> {
+class SvgIcon extends React.Component<Props, Context> {
   public static defaultProps = {
     className: '',
     style: {},
