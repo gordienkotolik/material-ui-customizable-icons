@@ -2,9 +2,12 @@
      style="display: inline-block; height: 24px; width: 24px; user-select: none; cursor: inherit; transition: all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms; color: rgb(255, 255, 255); background-color: transparent;">
     <g transform="">
         <g>
-            <circle cx="12" cy="12" r="12" fill="rgba(169, 169, 169, 1)" stroke="transparent" stroke-width="0"></circle>
-            <path d="M 4 12 L 11 18" stroke="rgba(255, 255, 255, 1)" fill="transparent" stroke-width="3"></path>
-            <path d="M 9 18 L 20 7" stroke="rgba(255, 255, 255, 1)" fill="transparent" stroke-width="3"></path>
+            <path d="M 2 4, L 2 6, L 23 6, L 23 4, L 18 4, L 16 2, L 9 2, L 7 4, L 2 4" stroke="transparent"
+                  fill="rgba(169, 169, 169, 1)" stroke-width="0"></path>
+            <path d="M 4 8, L 4 21, A 2 2, 0, 0, 0, 6 23, L 19 23, A 2 2, 0, 0, 0, 21 21, L 21 8, L 4 8"
+                  stroke="transparent" fill="rgba(169, 169, 169, 1)" stroke-width="0"></path>
+            <path d="M 8 11, L 17 20" stroke="rgba(255, 255, 255, 1)" fill="transparent" stroke-width="3"></path>
+            <path d="M 8 20, L 17 11" stroke="rgba(255, 255, 255, 1)" fill="transparent" stroke-width="3"></path>
         </g>
     </g>
 </svg>

@@ -66,31 +66,31 @@ export default Example;
 #### Components list and their specific pallets:
 | Component        | Preview           | Pallet properties to specify colors for |
 | ------------- |-------------| -----| -------- |
-| Active | ![Active Icon](svg/active.svg) | circle, tick |
-| Inactive | No Image Yet | circle, tick, crossing |
-| ChevronUp | No Image Yet | primary |
-| ChevronDown | No Image Yet | primary |
-| ChevronLeft | No Image Yet | primary |
-| ChevronRight | No Image Yet | primary |
-| CaretUp | No Image Yet | primary |
-| CaretDown | No Image Yet | primary |
-| CaretLeft | No Image Yet | primary |
-| CaretRight | No Image Yet | primary |
-| ViewArticles | No Image Yet | primary |
-| ViewGrid | No Image Yet | primary |
-| ViewHeadlines | No Image Yet | primary |
-| ViewList | No Image Yet | primary |
-| Hamburger | No Image Yet | primary |
-| Edit | No Image Yet | primary |
-| Delete | No Image Yet | cap, bucket, cross |
-| MoveUp | No Image Yet | arrow, strip |
-| MoveDown | No Image Yet | arrow, strip |
-| MoveLeft | No Image Yet | arrow, strip |
-| MoveRight | No Image Yet | arrow, strip |
-| Search | No Image Yet | stick, ring |
-| SearchPlus | No Image Yet | stick, ring, plus |
-| SearchMinus | No Image Yet | stick, ring, minus |
-| Github | No Image Yet | cat, ring |
+| Active | ![Active Icon](png/active.png) | circle, tick |
+| Inactive | ![Inactive Icon](png/inactive.png) | circle, tick, crossing |
+| ChevronUp | ![ChevronUp Icon](png/chevron-up.png) | primary |
+| ChevronDown | ![ChevronDown Icon](png/chevron-down.png) | primary |
+| ChevronLeft | ![ChevronLeft Icon](png/chevron-left.png) | primary |
+| ChevronRight | ![ChevronRight Icon](png/chevron-right.png) | primary |
+| CaretUp | ![CaretUp Icon](png/caret-up.png) | primary |
+| CaretDown | ![CaretDown Icon](png/caret-down.png) | primary |
+| CaretLeft | ![CaretLeft Icon](png/caret-left.png) | primary |
+| CaretRight | ![CaretRight Icon](png/caret-right.png) | primary |
+| ViewArticles | ![ViewArticles Icon](png/view-articles.png) | primary |
+| ViewGrid | ![ViewGrid Icon](png/view-grid.png) | primary |
+| ViewHeadlines | ![ViewHeadlines Icon](png/view-headlines.png) | primary |
+| ViewList | ![ViewList Icon](png/view-list.png) | primary |
+| Hamburger | ![Hamburger Icon](png/hamburger.png) | primary |
+| Edit | ![Edit Icon](png/edit.png) | primary |
+| Delete | ![Delete Icon](png/delete.png) | cap, bucket, cross |
+| MoveUp | ![MoveUp Icon](png/move-up.png) | arrow, strip |
+| MoveDown | ![MoveDown Icon](png/move-down.png) | arrow, strip |
+| MoveLeft | ![MoveLeft Icon](png/move-left.png) | arrow, strip |
+| MoveRight | ![MoveRight Icon](png/move-right.png) | arrow, strip |
+| Search | ![Search Icon](png/search.png) | stick, ring |
+| SearchPlus | ![SearchPlus Icon](png/search-plus.png) | stick, ring, plus |
+| SearchMinus | ![SearchMinus Icon](png/search-minus.png) | stick, ring, minus |
+| Github | ![Github Icon](png/github.png) | cat, ring |
 
 
 ## Contribute
