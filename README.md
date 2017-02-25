@@ -72,6 +72,10 @@ export default Example;
 | ChevronDown | ![ChevronDown Icon](png/chevron-down.png) | primary |
 | ChevronLeft | ![ChevronLeft Icon](png/chevron-left.png) | primary |
 | ChevronRight | ![ChevronRight Icon](png/chevron-right.png) | primary |
+| ArrowUp | ![ArrowUp Icon](png/arrow-up.png) | primary |
+| ArrowDown | ![ArrowDown Icon](png/arrow-down.png) | primary |
+| ArrowLeft | ![ArrowLeft Icon](png/arrow-left.png) | primary |
+| ArrowRight | ![ArrowRight Icon](png/arrow-right.png) | primary |
 | CaretUp | ![CaretUp Icon](png/caret-up.png) | primary |
 | CaretDown | ![CaretDown Icon](png/caret-down.png) | primary |
 | CaretLeft | ![CaretLeft Icon](png/caret-left.png) | primary |

@@ -10,6 +10,10 @@ declare module "material-ui-customizable-icons" {
   export import ChevronDown = __Icons.ChevronDown;
   export import ChevronLeft = __Icons.ChevronLeft;
   export import ChevronRight = __Icons.ChevronRight;
+  export import ArrowUp = __Icons.ArrowUp;
+  export import ArrowDown = __Icons.ArrowDown;
+  export import ArrowLeft = __Icons.ArrowLeft;
+  export import ArrowRight = __Icons.ArrowRight;
   export import CaretUp = __Icons.CaretUp;
   export import CaretDown = __Icons.CaretDown;
   export import CaretLeft = __Icons.CaretLeft;
@@ -36,6 +40,10 @@ declare module "material-ui-customizable-icons" {
     ChevronDown,
     ChevronLeft,
     ChevronRight,
+    ArrowUp,
+    ArrowDown,
+    ArrowLeft,
+    ArrowRight,
     CaretUp,
     CaretDown,
     CaretLeft,
@@ -92,6 +100,18 @@ declare namespace __Icons {
     public group: () => JSX.Element;
   }
   export class ChevronRight extends SvgIcon {
+    public group: () => JSX.Element;
+  }
+  export class ArrowUp extends SvgIcon {
+    public group: () => JSX.Element;
+  }
+  export class ArrowDown extends SvgIcon {
+    public group: () => JSX.Element;
+  }
+  export class ArrowLeft extends SvgIcon {
+    public group: () => JSX.Element;
+  }
+  export class ArrowRight extends SvgIcon {
     public group: () => JSX.Element;
   }
   export class CaretUp extends SvgIcon {
@@ -181,6 +201,26 @@ declare module 'material-ui-customizable-icons/ChevronLeft' {
 declare module 'material-ui-customizable-icons/ChevronRight' {
   export import ChevronRight = __Icons.ChevronRight;
   export default ChevronRight;
+}
+
+declare module 'material-ui-customizable-icons/ArrowUp' {
+  export import ArrowUp = __Icons.ArrowUp;
+  export default ArrowUp;
+}
+
+declare module 'material-ui-customizable-icons/ArrowDown' {
+  export import ArrowDown = __Icons.ArrowDown;
+  export default ArrowDown;
+}
+
+declare module 'material-ui-customizable-icons/ArrowLeft' {
+  export import ArrowLeft = __Icons.ArrowLeft;
+  export default ArrowLeft;
+}
+
+declare module 'material-ui-customizable-icons/ArrowRight' {
+  export import ArrowRight = __Icons.ArrowRight;
+  export default ArrowRight;
 }
 
 declare module 'material-ui-customizable-icons/CaretUp' {

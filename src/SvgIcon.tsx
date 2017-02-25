@@ -14,7 +14,7 @@ interface Context {
   muiTheme?: any;
 }
 
-class SvgIcon extends React.Component<Props, Context> {
+class SvgIcon extends React.Component<Props, any> {
   public static defaultProps = {
     className: '',
     style: {},

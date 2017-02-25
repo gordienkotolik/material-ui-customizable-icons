@@ -3,6 +3,10 @@ import ChevronDown from "./ChevronDown";
 import ChevronLeft from "./ChevronLeft";
 import ChevronRight from "./ChevronRight";
 import ChevronUp from "./ChevronUp";
+import ArrowDown from "./ArrowDown";
+import ArrowLeft from "./ArrowLeft";
+import ArrowRight from "./ArrowRight";
+import ArrowUp from "./ArrowUp";
 import Delete from "./Delete";
 import Edit from "./Edit";
 import Github from "./Github";
@@ -34,6 +38,10 @@ const Icons: ObjectLiteral = {
   ChevronDown,
   ChevronLeft,
   ChevronRight,
+  ArrowUp,
+  ArrowDown,
+  ArrowLeft,
+  ArrowRight,
   CaretUp,
   CaretDown,
   CaretLeft,
