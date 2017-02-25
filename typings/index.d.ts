@@ -1,4 +1,6 @@
 /* tslint:disable:max-classes-per-file */
+import EventHandler = React.EventHandler;
+
 interface ObjectLiteral {
   [key: string]: any;
 }
@@ -73,6 +75,7 @@ declare namespace __Icons {
     pallet?: any;
     viewBox?: string;
     transform?: string;
+    onClick?: EventHandler<any>;
   }
   interface SvgIconContext {
     muiTheme?: any;

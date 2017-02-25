@@ -1,13 +1,16 @@
 import * as React from 'react';
+import EventHandler = React.EventHandler;
+
 import {ObjectLiteral} from "../typings/common";
 
 
 interface Props {
   className?: string;
   style?: ObjectLiteral;
+  pallet?: any;
   viewBox?: string;
   transform?: string;
-  pallet?: any;
+  onClick?: EventHandler<any>;
 }
 
 interface Context {
@@ -40,6 +43,7 @@ class SvgIcon extends React.Component<Props, any> {
         viewBox={viewBox}
         style={style}
         className={className}
+        onClick={this.props.onClick}
       >
         <g transform={transform}>
           {children}
