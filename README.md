@@ -8,9 +8,9 @@ A set of minimalistic customizable material design SVG-icon components for React
 
 ## Requirements
 
-- [Node](https://nodejs.org) 7.5.0 or newer
-- [Typescript](https://www.typescriptlang.org) 2.1.5 or newer
-- [Babel](https://babeljs.io) 6.2.2 or newer
+- [Node](https://nodejs.org) 7.5.0 or newer (not tested on earlier versions)
+- [Typescript](https://www.typescriptlang.org) 2.1.5 or newer (not tested on earlier versions)
+- [Babel](https://babeljs.io) 6.2.2 or newer (not tested on earlier versions)
 
 
 ## Required Knowledge
@@ -25,7 +25,7 @@ npm i material-ui-customizable-icons --save
 ## Usage
 Once installed, just import and use the component:
 ```javascript
-import React from `react`;
+import React from 'react';
 import Active from 'material-ui-customizable-icons/Active';
 
 const className = 'custom-icon';
@@ -44,7 +44,6 @@ const Example = () => (
   <Active
     className={className}
     style={style}
-    className={className}
     transform={transform}
     pallet={pallet}
   />
