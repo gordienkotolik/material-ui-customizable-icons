@@ -105,6 +105,11 @@ export default Example;
 5. Fix bugs or implement features
 
 
+## Future
+- Add tests
+- Add examples directory
+
+
 ## License
 This project is licensed under the terms of the
 [MIT license](https://github.com/gordienkotolik//material-ui-customizable-icons/blob/master/LICENSE)
