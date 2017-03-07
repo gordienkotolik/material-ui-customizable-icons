@@ -106,6 +106,7 @@ export default Example;
 
 
 ## Future
+- Fix distribution type definitions to handle "import {...} from 'material-ui-customizable-icons'" imports
 - Add tests
 - Add examples directory
 
