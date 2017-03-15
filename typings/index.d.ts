@@ -35,6 +35,7 @@ declare module "material-ui-customizable-icons" {
   export import SearchPlus = __Icons.SearchPlus;
   export import SearchMinus = __Icons.SearchMinus;
   export import Github = __Icons.Github;
+  export import Clear = __Icons.Clear;
   export default {
     Active,
     Inactive,
@@ -65,6 +66,7 @@ declare module "material-ui-customizable-icons" {
     SearchPlus,
     SearchMinus,
     Github,
+    Clear,
   } as ObjectLiteral;
 }
 
@@ -172,6 +174,9 @@ declare namespace __Icons {
     public group: () => JSX.Element;
   }
   export class Github extends SvgIcon {
+    public group: () => JSX.Element;
+  }
+  export class Clear extends SvgIcon {
     public group: () => JSX.Element;
   }
 }
@@ -319,4 +324,9 @@ declare module 'material-ui-customizable-icons/SearchMinus' {
 declare module 'material-ui-customizable-icons/Github' {
   export import Github = __Icons.Github;
   export default Github;
+}
+
+declare module 'material-ui-customizable-icons/Clear' {
+  export import Clear = __Icons.Clear;
+  export default Clear;
 }

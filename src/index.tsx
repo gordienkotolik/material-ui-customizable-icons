@@ -27,6 +27,7 @@ import ViewList from "./ViewList";
 import SearchMinus from "./SearchMinus";
 import SearchPlus from "./SearchPlus";
 import Search from "./Search";
+import Clear from "./Clear";
 
 import {ObjectLiteral} from "../typings/common";
 
@@ -61,6 +62,7 @@ const Icons: ObjectLiteral = {
   SearchPlus,
   SearchMinus,
   Github,
+  Clear,
 };
 
 

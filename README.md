@@ -94,6 +94,7 @@ export default Example;
 | SearchPlus | ![SearchPlus Icon](png/search-plus.png) | stick, ring, plus |
 | SearchMinus | ![SearchMinus Icon](png/search-minus.png) | stick, ring, minus |
 | Github | ![Github Icon](png/github.png) | cat, ring |
+| Clear | ![Clear Icon](png/clear.png) | primary |
 
 
 ## Contribute
