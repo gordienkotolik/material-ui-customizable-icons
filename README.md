@@ -64,7 +64,7 @@ export default Example;
 
 #### Components list and their specific pallets:
 | Component        | Preview           | Pallet properties to specify colors for |
-| ------------- |-------------| -----| -------- |
+| ------------- |-------------| -------- |
 | Active | ![Active Icon](png/active.png) | circle, tick |
 | Inactive | ![Inactive Icon](png/inactive.png) | circle, tick, crossing |
 | ChevronUp | ![ChevronUp Icon](png/chevron-up.png) | primary |
