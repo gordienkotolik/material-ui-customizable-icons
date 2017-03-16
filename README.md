@@ -85,6 +85,8 @@ export default Example;
 | ViewList | ![ViewList Icon](png/view-list.png) | primary |
 | Hamburger | ![Hamburger Icon](png/hamburger.png) | primary |
 | Edit | ![Edit Icon](png/edit.png) | primary |
+| Clear | ![Clear Icon](png/clear.png) | primary |
+| Save | ![Save Icon](png/save.png) | primary |
 | Delete | ![Delete Icon](png/delete.png) | cap, bucket, cross |
 | MoveUp | ![MoveUp Icon](png/move-up.png) | arrow, strip |
 | MoveDown | ![MoveDown Icon](png/move-down.png) | arrow, strip |
@@ -94,7 +96,6 @@ export default Example;
 | SearchPlus | ![SearchPlus Icon](png/search-plus.png) | stick, ring, plus |
 | SearchMinus | ![SearchMinus Icon](png/search-minus.png) | stick, ring, minus |
 | Github | ![Github Icon](png/github.png) | cat, ring |
-| Clear | ![Clear Icon](png/clear.png) | primary |
 
 
 ## Contribute
