@@ -1,0 +1,12 @@
+<svg viewBox="0 0 24 24" class=""
+     style="display: inline-block; height: 24px; width: 24px; user-select: none; cursor: inherit; transition: all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms; color: rgb(255, 255, 255); background-color: transparent; fill: rgb(255, 255, 255);">
+    <g transform="">
+        <g>
+            <path d="M 23 1, L 19 1, L 6 14, L 10 18, L 23 5" stroke="transparent" fill="rgba(169, 169, 169, 1)"
+                  stroke-width="0"></path>
+            <path d="M 9 19, L 5 15, L 3 17, A 2 2, 0, 0, 0, 2 19, L 5 22, A 2 2, 0, 0, 0, 6 22, L 9 19"
+                  stroke="transparent" fill="rgba(169, 169, 169, 1)" stroke-width="0"></path>
+            <path d="M 6 21, L 22 21" stroke="rgba(169, 169, 169, 1)" fill="transparent" stroke-width="2"></path>
+        </g>
+    </g>
+</svg>

@@ -35,7 +35,9 @@ declare module "material-ui-customizable-icons" {
   export import SearchPlus = __Icons.SearchPlus;
   export import SearchMinus = __Icons.SearchMinus;
   export import Github = __Icons.Github;
-  export import Clear = __Icons.Clear;
+  export import Cancel = __Icons.Cancel;
+  export import Undo = __Icons.Undo;
+  export import Erase = __Icons.Erase;
   export import Save = __Icons.Save;
   export default {
     Active,
@@ -67,7 +69,9 @@ declare module "material-ui-customizable-icons" {
     SearchPlus,
     SearchMinus,
     Github,
-    Clear,
+    Cancel,
+    Undo,
+    Erase,
     Save,
   } as ObjectLiteral;
 }
@@ -178,7 +182,13 @@ declare namespace __Icons {
   export class Github extends SvgIcon {
     public group: () => JSX.Element;
   }
-  export class Clear extends SvgIcon {
+  export class Cancel extends SvgIcon {
+    public group: () => JSX.Element;
+  }
+  export class Undo extends SvgIcon {
+    public group: () => JSX.Element;
+  }
+  export class Erase extends SvgIcon {
     public group: () => JSX.Element;
   }
   export class Save extends SvgIcon {
@@ -331,9 +341,19 @@ declare module 'material-ui-customizable-icons/Github' {
   export default Github;
 }
 
-declare module 'material-ui-customizable-icons/Clear' {
-  export import Clear = __Icons.Clear;
-  export default Clear;
+declare module 'material-ui-customizable-icons/Cancel' {
+  export import Cancel = __Icons.Cancel;
+  export default Cancel;
+}
+
+declare module 'material-ui-customizable-icons/Undo' {
+  export import Undo = __Icons.Undo;
+  export default Undo;
+}
+
+declare module 'material-ui-customizable-icons/Erase' {
+  export import Erase = __Icons.Erase;
+  export default Erase;
 }
 
 declare module 'material-ui-customizable-icons/Save' {

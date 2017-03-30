@@ -9,7 +9,7 @@ import ArrowRight from "./ArrowRight";
 import ArrowUp from "./ArrowUp";
 import Delete from "./Delete";
 import Edit from "./Edit";
-import Clear from "./Clear";
+import Cancel from "./Cancel";
 import Save from "./Save";
 import Hamburger from "./Hamburger";
 import Inactive from "./Inactive";
@@ -29,6 +29,8 @@ import SearchMinus from "./SearchMinus";
 import SearchPlus from "./SearchPlus";
 import Search from "./Search";
 import Github from "./Github";
+import Undo from "./Undo";
+import Erase from "./Erase";
 
 import {ObjectLiteral} from "../typings/common";
 
@@ -54,7 +56,7 @@ const Icons: ObjectLiteral = {
   ViewList,
   Hamburger,
   Edit,
-  Clear,
+  Cancel,
   Save,
   Delete,
   MoveUp,
@@ -65,6 +67,8 @@ const Icons: ObjectLiteral = {
   SearchPlus,
   SearchMinus,
   Github,
+  Undo,
+  Erase,
 };
 
 

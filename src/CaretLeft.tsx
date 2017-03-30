@@ -12,7 +12,7 @@ class CaretLeft extends SvgIcon {
   public group(style: any, pallet: Pallet): JSX.Element {
     return (
       <g>
-        <path d="M 23 12, L 13 3, A 2 2, 0, 0, 0, 11 4, L 11 22, A 2 2, 0, 0, 0, 13 23, L 23 14, A 2 2, 0, 0, 0, 23 12" stroke="transparent" fill={pallet.primary} strokeWidth="0" />
+        <path d="M 2 12, L 12 3, A 2 2, 0, 0, 1, 14 4, L 14 22, A 2 2, 0, 0, 1, 12 23, L 2 14, A 2 2, 0, 0, 1, 2 12" stroke="transparent" fill={pallet.primary} strokeWidth="0" />
       </g>
     );
   }
