@@ -102,7 +102,7 @@ export default Example;
 
 ## Contribute
 
-1. [Submit an issue](https://github.com/gordienkotolik//material-ui-customizable-icons/issues)
+1. [Submit an issue](https://github.com/gordienkotolik/material-ui-customizable-icons/issues)
 2. Fork the repository
 3. Create a dedicated branch (never ever work in `master`)
 4. The first time, run command: `yarn` into the directory
@@ -117,4 +117,4 @@ export default Example;
 
 ## License
 This project is licensed under the terms of the
-[MIT license](https://github.com/gordienkotolik//material-ui-customizable-icons/blob/master/LICENSE)
+[MIT license](https://github.com/gordienkotolik/material-ui-customizable-icons/blob/master/LICENSE)
